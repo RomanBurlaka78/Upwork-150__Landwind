@@ -1,0 +1,75 @@
+/* Fonts */
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+/* Global Styles */
+
+ .btn {
+    //forms button //
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    // @media(max-width:992px) {
+    //     font-size: 22px;
+    //     padding: 10px 15px;
+    // }
+
+}
+
+.btn {
+    
+    // colors //
+&__outline {
+    color: $clr-primary-black;
+   
+    &:hover {
+        color: darken( $clr-primary-black,  3%);
+        
+    }
+
+}
+&__primary {
+    color: white;
+    background-color:$clr-secondary-blue;
+    border: none;
+    &:hover {
+        background-color: darken( $clr-secondary-blue, 20%);
+             
+    }
+
+}
+&__secondary {
+   background-color: #FF6200;
+    color: white;
+    border: none;
+    &:hover {
+        background-color: darken(#FF6200, 10%);
+        
+    }
+
+}
+
+}
+
+//keyframes
+
+@keyframes fade {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+

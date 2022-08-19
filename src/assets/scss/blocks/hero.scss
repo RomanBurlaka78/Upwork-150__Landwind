@@ -1,0 +1,44 @@
+
+.hero {
+
+    &__inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // gap: 96px;
+    }
+    &__inner-content {
+        flex: 0 0 736px;
+        padding: 62px 0;
+    }
+
+    &__title {
+     
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        padding-bottom: 24px;
+
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: $clr-grey;
+        padding-bottom: 40px;
+    }
+
+    &__inner-img {
+        background: url('./assets/images/logo.svg') cover/center no-repeat;
+    }
+
+}
+
+
+
+.nav__btns--hero {
+   justify-content: start;
+
+}
