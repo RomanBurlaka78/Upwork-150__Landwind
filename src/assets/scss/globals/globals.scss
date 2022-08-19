@@ -72,4 +72,34 @@
 }
 }
 
+//Title, text//
+.title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 45px;
+    letter-spacing: -1%;
+    color: $clr-primary-black ;
+    padding-bottom: 16px;
+    @media(max-width:768px) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 35px;
+    }
+   
+}
+.title-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $clr-grey ;
+
+}
+.content-list {
+    padding: 32px 0 8px 0;
+
+}
+.content-list__item {
+    color: $clr-primary-black;
+    padding: 8px 0;
+}
 

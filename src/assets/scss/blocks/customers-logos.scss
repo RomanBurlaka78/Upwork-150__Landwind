@@ -1,0 +1,49 @@
+.customers-logo {
+
+    &__inner {
+        max-width: 1280px;
+        margin: 0 auto 96px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 49px;
+        flex-wrap: wrap;
+        @media(max-width:1080px) {
+            gap: 35px;
+        }
+        @media(max-width:480px) {
+           
+            justify-content: center;
+            }
+    }
+
+    &__inner-content {
+       flex: 0 0 10%;
+       @media(max-width:1080px) {
+        flex: 0 0 25%;
+        justify-content: center;
+        }
+        @media(max-width:580px) {
+            flex: 0 0 40%;
+            justify-content: center;
+            }
+            @media(max-width:480px) {
+                flex: 0 0 50%;
+                justify-content: center;
+                }
+    }
+
+    &__inner-item {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    
+   &__img {
+   
+}
+
+}
+
+
+
