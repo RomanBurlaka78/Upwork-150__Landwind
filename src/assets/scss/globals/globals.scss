@@ -75,7 +75,7 @@
 //Title, text//
 .title {
     font-weight: 800;
-    font-size: 46px;
+    font-size: 32px;
     line-height: 45px;
     letter-spacing: -1%;
     color: $clr-primary-black ;
@@ -87,6 +87,9 @@
     }
    
 }
+
+
+
 .title-text {
     font-weight: 400;
     font-size: 20px;
@@ -102,4 +105,25 @@
     color: $clr-primary-black;
     padding: 8px 0;
 }
+.content-span {
+    font-weight: 700;
+}
 
+.sub-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: $clr-secondary-blue;
+    // margin: 20px 0 12px 0;
+    display: block;
+    text-decoration: none;
+
+    &__margin {
+        margin-bottom: 16px;
+    }
+}
+
+.title__wrapper {
+    margin: 16px 0 40px 0;
+}
