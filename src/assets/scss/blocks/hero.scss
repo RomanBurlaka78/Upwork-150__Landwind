@@ -75,13 +75,14 @@
 
 
             @media(max-width:550px) {
-                max-width: 432px;
-              
-           }
+                max-width: 432px; 
+            }
            @media(max-width:480px) {
             max-width: 332px;
-          
-       }
+           }
+           @media(max-width:380px) {
+            max-width: 232px;
+           }
             
          }
         

@@ -75,15 +75,20 @@
 //Title, text//
 .title {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 45px;
     letter-spacing: -1%;
     color: $clr-primary-black ;
     padding-bottom: 16px;
     @media(max-width:768px) {
         font-weight: 700;
-        font-size: 36px;
+        font-size: 32px;
         line-height: 35px;
+    }
+    @media(max-width:580px) {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
     }
    
 }
@@ -95,7 +100,12 @@
     font-size: 20px;
     line-height: 30px;
     color: $clr-grey ;
+    @media(max-width:580px) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
 
+    }
 }
 .content-list {
     padding: 32px 0 8px 0;

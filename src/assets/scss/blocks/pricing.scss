@@ -17,7 +17,7 @@
         padding: 32px;
         
         @media (max-width: 1243px) {
-           gap: 160px;
+           gap: 100px;
          }
         
 
@@ -33,6 +33,9 @@
       
         @media (max-width: 1200px) {
                 justify-content: center;
+             }
+             @media (max-width: 480px) {
+                flex: 0 0 100%;
              }
 
     }
