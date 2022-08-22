@@ -1,7 +1,7 @@
 .pricing {
     &__inner {
         max-width: 1280px;
-        margin: 96px 80px;
+        margin: 96px auto;
     }
     &__header {
         max-width: 768px;
@@ -28,6 +28,8 @@
     &__cart {
         flex: 0 0 340px;
         margin: 0 auto;
+        box-shadow: 15px 12px 1111px #e9e9f1;
+        border-radius: 5px;
       
         @media (max-width: 1200px) {
                 justify-content: center;
@@ -71,5 +73,6 @@
         line-height: 27px;
         color: $clr-grey;
     }
+
    
 }

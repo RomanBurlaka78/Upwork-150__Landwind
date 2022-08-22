@@ -1,3 +1,12 @@
+/*
+Fonts
+===============
+*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+
+/* SCSS */
 @import "globals/vars";
 @import "vendor/reset";
 @import "globals/globals";
@@ -8,6 +17,8 @@
 @import "blocks/customers-logos";
 @import "blocks/testimonials";
 @import "blocks/pricing";
+@import "blocks/faq";
+
 
 html {
     height: 100%;
