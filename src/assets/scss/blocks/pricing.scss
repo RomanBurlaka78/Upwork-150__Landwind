@@ -64,12 +64,12 @@
     &__cart-number {
         text-align: center;
         font-weight: 800;
-        font-size: 48px;
+        font-size: clamp(1.875rem, 1.57rem + 1.53vw, 3rem);
         line-height: 48px;
     }
     &__cart-list-wrapper {
         margin: 32px 0;
-    }
+    }g
     &__cart-number-span {
         font-weight: 500;
         font-size: 18px;

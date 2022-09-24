@@ -8,7 +8,7 @@
     //forms button //
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: clamp(0.5rem, 0.398rem + 0.51vw, 0.875rem);
     line-height: 21px;
     text-transform: capitalize;
     display: inline-block;
@@ -75,21 +75,21 @@
 //Title, text//
 .title {
     font-weight: 800;
-    font-size: 36px;
+    font-size: clamp(1.25rem, 0.979rem + 1.36vw, 2.25rem);
     line-height: 45px;
     letter-spacing: -1%;
     color: $clr-primary-black ;
     padding-bottom: 16px;
-    @media(max-width:768px) {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 35px;
-    }
-    @media(max-width:580px) {
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 30px;
-    }
+    // @media(max-width:768px) {
+    //     font-weight: 700;
+    //     font-size: 32px;
+    //     line-height: 35px;
+    // }
+    // @media(max-width:580px) {
+    //     font-weight: 700;
+    //     font-size: 28px;
+    //     line-height: 30px;
+    // }
    
 }
 
